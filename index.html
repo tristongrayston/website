@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <link rel="stylesheet" href="style.css">
+    <title> Personal Website </title>
+    <script src="nav.js" defer></script>
+</head>
+    <body class="home">
+
+        <header class="primary-header flex">
+
+            <div>
+                <img src="img/logo.svg" alt="logo" class="logo">
+            </div>
+
+            <button class="mobile-nav-toggle" aria-controls="navigation" aria-expanded="false"><span class="sr-only"></span class="
+                sr-only" aria-expanded="false"></button>
+            <nav>
+                <ul id="navigation" data-visible="false" class="navigation underline-indicators flex">
+                    <li class="active"><a href="index.html">
+                        <span aria-hidden="true"></span>Home
+                    </a></li>
+                    <li class="active"><a href="projects.html">
+                        <span aria-hidden="true"></span>Projects
+                    </a></li>
+                    <li class="active"><a href="contact.html">
+                        <span aria-hidden="true"></span>Contact
+                    </a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main class="grid-container grid-container--home">
+            <div>
+                <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">My name is
+                <span class="fs-900 ff-serif d-block text-white">Triston Grayston</span></h1>
+
+                <p><br>
+                    I'd like to take a moment to laugh at the pretentiousness of making a website about myself, and having 
+                    my name be the largest thing on the home screen. An undergraduate student has no business portraying self
+                    importance to this extent, however surely that fact makes for some comedic effect, right? 
+                    <br>
+                    <br>
+
+                    In any case, welcome to my website! I am a second year at the university of victoria studying a combined major of Mathematics
+                    and Computer Science. I find many realms of the field to be fascinating, but I find myself being drawn to a few subjects in particular,
+                    deep learning and computational neuroscience to be a few. 
+                    <br>
+                    <br>
+
+                    Please don't hesitate to reach out. The button on the right will send you to my contact page. 
+                </p>
+            </div>
+
+            <div style="display:flex; justify-content: flex-start; align-items:start;">
+                <a href="#" class="large-button uppercase ff-serif text-dark bg-white rounded-circle">Contact</a>
+            </div>
+        </div>
+
+        </main>
+    </body>
+</html>
