@@ -9,7 +9,7 @@
           <img src="{{ project.image }}" class="teaser img-fluid z-depth-1">
         </div>
         <div class="col-sm-9" style="padding-left:20px;">
-          <div class="title"><a href="{{ project.url | relative_url }}">{{ project.title }}</a></div>
+          <div class="title" style="font-weight: bold; font-size: 1.2em; margin-bottom: 8px; color: #2196F3;">{{ project.title }}</div>
           <div class="blurb">
             {{ project.content | markdownify }}
           </div>
