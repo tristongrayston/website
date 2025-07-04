@@ -1,7 +1,8 @@
-<h2 id="projects" style="margin:2px 0 -15px;">Projects</h2>
+<h2 id="projects" style="margin: 2px 0 1em;">Projects</h2>
 <div class="projects">
   <ol class="project-list">
-    {% for project in site.projects reversed %}
+    {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
+    {% for project in sorted_projects %}
     <li>
       <div class="proj-row">
         <div class="col-sm-3">
