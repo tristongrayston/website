@@ -49,3 +49,9 @@
 
 </ol>
 </div>
+
+<h2 id="projects" style="margin:2px 0 -15px;">Projects</h2>
+<!--
+<h2 id="projects" style="margin:2px 0 -15px;">Projects</h2>
+{% include_relative _includes/projects.md %}
+-->
